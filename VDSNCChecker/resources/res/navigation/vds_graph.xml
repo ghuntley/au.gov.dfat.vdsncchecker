@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/nav_graph" app:startDestination="@+id/summaryFragment">
+    <fragment android:label="fragment_summary" android:name="p007au.gov.dfat.vdsncchecker.p008ui.SummaryFragment" android:id="@+id/summaryFragment">
+        <action android:id="@+id/action_summaryFragment_to_detailFragment" app:destination="@+id/detailFragment"/>
+        <argument android:name="vds" app:argType="au.gov.dfat.vdsncchecker.vds.VdsParcel"/>
+    </fragment>
+    <fragment android:label="fragment_detail" android:name="p007au.gov.dfat.vdsncchecker.p008ui.DetailFragment" android:id="@+id/detailFragment">
+        <argument android:name="vds" app:argType="au.gov.dfat.vdsncchecker.vds.VdsParcel"/>
+    </fragment>
+</navigation>

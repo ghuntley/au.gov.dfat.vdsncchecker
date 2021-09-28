@@ -1,1 +1,1 @@
-# au.gov.dfat.vdsncchecker
+# au.gov.dfat.vdsncchecker v1.0.3

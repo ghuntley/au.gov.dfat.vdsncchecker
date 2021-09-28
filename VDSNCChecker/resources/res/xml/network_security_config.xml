@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <domain-config>
+        <domain includeSubdomains="true">download.pkd.icao.int
+        </domain>
+        <pin-set>
+            <pin digest="SHA-256">cx4SQBIu9e0etOZlVw8DfmC4uxkmlREWjLC6h0vZtyQ=
+            </pin>
+            <pin digest="SHA-256">lv5BNZ5aWd27ooolULDolFTwIaaWjHvG4yyH3rss4X8=
+            </pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.dynamsoft.dce.AutoFitTextureView android:id="@+id/camera_cameraView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dynamsoft.dce.BoxView android:id="@+id/camera_boxview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dynamsoft.dce.CanvasView android:id="@+id/camera_canvasView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/summary_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceSubtitle1" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="@style/TextAppearance.Summary.Field2" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="@style/TextAppearance.Summary.Field3" android:id="@+id/batchNo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
